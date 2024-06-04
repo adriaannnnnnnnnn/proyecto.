@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(221, 214, 214);
+}
+
+
+
+
+/*Cabecera*/
+
+header {
+    margin: auto;
+    background: whitesmoke;
+}
+
+.cabecera{
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Cabecera*/
+
+/*Menu horizontal*/
+
+.menu-horizontal {
+    background-color: #ff0000e3;
+    overflow: hidden;
+}
+
+.menu-horizontal ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-horizontal li {
+    float: left;
+}
+
+.menu-horizontal li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu-horizontal li a:hover {
+    background-color: #8f0b0b;
+}
+
+/*Menu horizontal*/
+
+/*Formulario*/
+
+.form-register{
+    width: 400px;
+    background: whitesmoke;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: black;
+    box-shadow: 7px 13px 37px #000;
+}
+
+/*Formulario*/
+
+
+
+/*Titulo Formulario*/
+
+.form-register h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+/*Titulo Formulario*/
+
+
+
+/*Cuadros del Formulario*/
+
+.controls{
+    width: 100%;
+    background: #ebebeb;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+
+/*Cuadros del Formulario*/
+
+
+/*Parrafo terminos y Condiciones*/
+
+.form-register p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+/*Parrafo terminos y Condiciones*/
+
+
+/*Link Terminos y Condiciones*/
+
+.form-register a{
+    color: rgb(90, 90, 90);
+    text-decoration: none;
+}
+
+/*Link Terminos y Condiciones*/
+
+/*Para el cursor*/
+
+.form-register a:hover{
+    color: rgb(224, 2, 2);
+    text-decoration: underline;
+}
+
+/*Para el cursor*/
+
+/*Boton Registrar*/
+
+.form-register .botons{
+    width: 100%;
+    background: red;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+/*Boton Registrar*/
+
+
+
+/*Pie de pagina*/
+footer {
+    background-color: black; 
+    color: rgb(255, 255, 255); 
+    padding: 20px; 
+    text-align: center; 
+    margin-top: 5%;
+    border-radius: 4px;
+}
+/*Pie de pagina*/
